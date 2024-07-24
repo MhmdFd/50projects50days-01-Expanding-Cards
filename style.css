@@ -1,0 +1,36 @@
+
+.container{
+    margin: 10vh auto ;
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+}
+.box{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    width: 7%;
+    margin-right:18px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.3em;
+    border-radius:50px;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.7s ease-in;
+
+}
+h3{
+    color: #fff;
+    margin-left: 20px;
+    transition:all 0.3s ease-in;
+    opacity: 0;
+}
+.active{
+    width: 60%;
+}
+.active h3 {
+    opacity: 1;
+}
+
